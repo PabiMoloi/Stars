@@ -1,0 +1,62 @@
+[
+  {
+    "sign": "Aries",
+    "dateRange": "March 21 - April 19",
+    "image": "ic_aries"
+  },
+  {
+    "sign": "Taurus",
+    "dateRange": "April 20 - May 20",
+    "image": "ic_taurus"
+  },
+  {
+    "sign": "Gemini",
+    "dateRange": "May 21 - June 20",
+    "image": "ic_gemini"
+  },
+  {
+    "sign": "Cancer",
+    "dateRange": "June 21 - July 22",
+    "image": "ic_cancer"
+  },
+  {
+    "sign": "Leo",
+    "dateRange": "July 23 - August 22",
+    "image": "ic_leo"
+  },
+  {
+    "sign": "Virgo",
+    "dateRange": "August 23 - September 22",
+    "image": "ic_virgo"
+  },
+  {
+    "sign": "Libra",
+    "dateRange": "September 23 - October 22",
+    "image": "ic_libra"
+  },
+  {
+    "sign": "Scorpio",
+    "dateRange": "October 23 - June 20",
+    "image": "ic_scorpio"
+  },
+  {
+    "sign": "Sagittarius",
+    "dateRange": "November 22 - December 21",
+    "image": "ic_sagittarius"
+  },
+  {
+    "sign": "Capricon",
+    "dateRange": "December 22 - January 19",
+    "image": "ic_capricon"
+  },
+  {
+    "sign": "Aquarius",
+    "dateRange": "January 20 - February 18",
+    "image": "ic_aquarius"
+  },
+  {
+    "sign": "Pisces",
+    "dateRange": "February 19 - March 20",
+    "image": "ic_pisces"
+  }
+]

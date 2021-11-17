@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stars">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".StarsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_noun_astrology"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_noun_astrology"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Stars">
+        <activity
+            android:name=".view.HomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Stars.NoActionBar" />
+        <activity
+            android:name=".view.SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.Stars.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.SignSelectionActivity"
+            android:exported="true"
+            android:label="@string/title_activity_sign_selection"
+            android:theme="@style/Theme.Stars.NoActionBar" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
